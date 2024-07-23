@@ -1,8 +1,8 @@
 import React from 'react';
-import './HomePage.css'; // Ensure this file is created for custom styles
+import './HomePage.css';
 import Counter from './Counter';
 import RockPaperScissors from './RockPaperScissors';
-import TicTacToe from './TicTacToe'; // Import TicTacToe component
+import TicTacToe from './TicTacToe';
 import PlantPage from './PlantPage';
 
 const HomePage = () => {
@@ -13,7 +13,7 @@ const HomePage = () => {
         <p>Explore our interactive games and learn about plants!</p>
       </header>
       <main className="game-sections">
-        <div className="game-card">
+        {/* <div className="game-card">
           <h2>Counter Game</h2>
           <Counter />
         </div>
@@ -23,12 +23,12 @@ const HomePage = () => {
         </div>
         <div className="game-card">
           <h2>Tic Tac Toe</h2>
-          <TicTacToe /> {/* Add TicTacToe here */}
+          <TicTacToe />
         </div>
         <div className="game-card">
           <h2>Random Plant</h2>
           <PlantPage />
-        </div>
+        </div> */}
       </main>
       <footer className="home-footer">
         <p>&copy; 2024 Games Portal. All rights reserved.</p>
