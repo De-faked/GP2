@@ -789,7 +789,7 @@ const PlantPage = () => {
       const randomPlant = plants[Math.floor(Math.random() * plants.length)];
       setPlant(randomPlant);
       setLoading(false);
-    }, 500); // Simulate loading delay
+    }, 500); 
   };
 
   return (

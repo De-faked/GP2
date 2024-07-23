@@ -1,0 +1,203 @@
+{
+    "plants": [
+      {
+        "name": "Rose",
+        "scientific_name": "Rosa",
+        "family": "Rosaceae",
+        "origin": "Asia, Europe, North America",
+        "care_instructions": "Requires full sun. Water regularly, especially during dry periods.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Roses are a symbol of love and passion. They come in various colors and sizes."
+      },
+      {
+        "name": "Sunflower",
+        "scientific_name": "Helianthus annuus",
+        "family": "Asteraceae",
+        "origin": "North America",
+        "care_instructions": "Needs full sun. Water when the soil is dry.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1676450471747-feb7c373b4ce?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Sunflowers are known for their large, vibrant blooms that follow the sun."
+      },
+      {
+        "name": "Tulip",
+        "scientific_name": "Tulipa",
+        "family": "Liliaceae",
+        "origin": "Central Asia",
+        "care_instructions": "Plant in well-drained soil. Water sparingly during winter.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Tulips are popular spring flowers that come in many colors and shapes."
+      },
+      {
+        "name": "Orchid",
+        "scientific_name": "Orchidaceae",
+        "family": "Orchidaceae",
+        "origin": "Tropical and subtropical regions worldwide",
+        "care_instructions": "Needs indirect light. Keep the soil moist but not waterlogged.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1676450471747-feb7c373b4ce?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Orchids are exotic flowers with intricate patterns and a wide range of colors."
+      },
+      {
+        "name": "Lily",
+        "scientific_name": "Lilium",
+        "family": "Liliaceae",
+        "origin": "Northern Hemisphere",
+        "care_instructions": "Requires full sun or partial shade. Keep the soil consistently moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Lilies are elegant flowers that come in a variety of colors and sizes."
+      },
+      {
+        "name": "Daisy",
+        "scientific_name": "Bellis perennis",
+        "family": "Asteraceae",
+        "origin": "Europe",
+        "care_instructions": "Prefers full sun. Water when the soil is dry.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Daisies are cheerful flowers with a classic, simple look."
+      },
+      {
+        "name": "Violet",
+        "scientific_name": "Viola",
+        "family": "Violaceae",
+        "origin": "Europe, Asia, North America",
+        "care_instructions": "Grows well in partial shade. Keep soil moist but well-drained.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Violets are small, delicate flowers known for their vibrant colors."
+      },
+      {
+        "name": "Iris",
+        "scientific_name": "Iris germanica",
+        "family": "Iridaceae",
+        "origin": "Europe, North Africa, and Western Asia",
+        "care_instructions": "Needs full sun. Water when the soil is dry.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Irises have unique, intricate flowers and come in many shades."
+      },
+      {
+        "name": "Cactus",
+        "scientific_name": "Cactaceae",
+        "family": "Cactaceae",
+        "origin": "Americas",
+        "care_instructions": "Requires full sun. Water sparingly.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Cacti are succulent plants adapted to arid environments, known for their spines and unique shapes."
+      },
+      {
+        "name": "Fern",
+        "scientific_name": "Polypodiopsida",
+        "family": "Various",
+        "origin": "Worldwide",
+        "care_instructions": "Prefers indirect light and high humidity. Keep soil moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Ferns are ancient plants with feathery, green leaves that thrive in shaded, moist environments."
+      },
+      {
+        "name": "Basil",
+        "scientific_name": "Ocimum basilicum",
+        "family": "Lamiaceae",
+        "origin": "Africa, Asia",
+        "care_instructions": "Needs full sun. Water regularly but avoid waterlogging.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Basil is a fragrant herb commonly used in cooking, particularly in Italian cuisine."
+      },
+      {
+        "name": "Mint",
+        "scientific_name": "Mentha",
+        "family": "Lamiaceae",
+        "origin": "Europe, Asia",
+        "care_instructions": "Thrives in full sun or partial shade. Keep soil moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Mint is a versatile herb known for its refreshing flavor and aroma."
+      },
+      {
+        "name": "Lavender",
+        "scientific_name": "Lavandula",
+        "family": "Lamiaceae",
+        "origin": "Mediterranean",
+        "care_instructions": "Requires full sun and well-drained soil. Water sparingly.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Lavender is valued for its fragrant flowers and essential oils used in aromatherapy."
+      },
+      {
+        "name": "Aloe Vera",
+        "scientific_name": "Aloe barbadensis miller",
+        "family": "Asphodelaceae",
+        "origin": "Arabian Peninsula",
+        "care_instructions": "Needs bright, indirect light. Water sparingly.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Aloe Vera is known for its medicinal properties and soothing gel found in its leaves."
+      },
+      {
+        "name": "Spider Plant",
+        "scientific_name": "Chlorophytum comosum",
+        "family": "Asparagaceae",
+        "origin": "South Africa",
+        "care_instructions": "Prefers bright, indirect light. Keep soil moist but not waterlogged.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Spider plants are popular houseplants known for their air-purifying qualities and arching leaves."
+      },
+      {
+        "name": "Pothos",
+        "scientific_name": "Epipremnum aureum",
+        "family": "Araceae",
+        "origin": "French Polynesia",
+        "care_instructions": "Thrives in low light. Water when the top inch of soil is dry.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Pothos is a low-maintenance plant with trailing vines and heart-shaped leaves, ideal for indoor spaces."
+      },
+      {
+        "name": "ZZ Plant",
+        "scientific_name": "Zamioculcas zamiifolia",
+        "family": "Araceae",
+        "origin": "East Africa",
+        "care_instructions": "Tolerates low light. Water infrequently.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "ZZ Plants are known for their glossy, dark green leaves and tolerance of low light and drought."
+      },
+      {
+        "name": "Chinese Evergreen",
+        "scientific_name": "Aglaonema",
+        "family": "Araceae",
+        "origin": "Asia",
+        "care_instructions": "Prefers low to medium light. Keep soil moist but not soggy.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Chinese Evergreens are hardy plants with attractive foliage and ease of care."
+      },
+      {
+        "name": "Peace Lily",
+        "scientific_name": "Spathiphyllum",
+        "family": "Araceae",
+        "origin": "Tropical Americas",
+        "care_instructions": "Thrives in low to medium light. Keep soil consistently moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Peace Lilies are elegant houseplants known for their white blooms and air-purifying properties."
+      },
+      {
+        "name": "Bamboo Palm",
+        "scientific_name": "Chamaedorea seifrizii",
+        "family": "Arecaceae",
+        "origin": "Central and South America",
+        "care_instructions": "Prefers indirect light. Keep soil moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Bamboo Palms add a tropical feel to indoor spaces and are excellent at removing indoor pollutants."
+      },
+      {
+        "name": "Geranium",
+        "scientific_name": "Pelargonium",
+        "family": "Geraniaceae",
+        "origin": "South Africa",
+        "care_instructions": "Needs full sun. Water when the soil is dry.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Geraniums are popular for their colorful flowers and are commonly grown in containers and gardens."
+      },
+      {
+        "name": "Begonia",
+        "scientific_name": "Begonia",
+        "family": "Begoniaceae",
+        "origin": "Tropical and subtropical regions",
+        "care_instructions": "Prefers indirect light. Keep soil moist.",
+        "image_url": "https://plus.unsplash.com/premium_photo-1673716788461-0aa43e5d2015?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Begonias are known for their decorative foliage and vibrant flowers."
+      }
+    ]
+  }
+  

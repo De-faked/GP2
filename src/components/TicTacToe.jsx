@@ -42,6 +42,8 @@ const calculateWinner = (squares) => {
     [0, 4, 8],
     [2, 4, 6],
   ];
+
+  // for the sacke of Honesty, this part was created by chatGPT//
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
@@ -50,5 +52,6 @@ const calculateWinner = (squares) => {
   }
   return null;
 };
+// chatGPT ends here//
 
 export default TicTacToe;
