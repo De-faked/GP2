@@ -1,0 +1,70 @@
+.rock-paper-scissors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0f7e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.rock-paper-scissors:hover {
+  transform: scale(1.05);
+}
+
+.rock-paper-scissors h2 {
+  color: #1b5e20;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.choices button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choices button:focus {
+  outline: none;
+}
+
+.choices button:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}
+
+.results p {
+  color: #388e3c;
+  font-size: 1.2em;
+}
+
+.score p {
+  color: #4caf50;
+  font-size: 1.2em;
+}
+
+.reset-button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}

@@ -1,0 +1,62 @@
+/* PlantPage.css */
+
+.plant-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.plant-header {
+  background-color: #3a9d70; /* Green */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.plant-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.plant-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fetch-button {
+  background-color: #3a9d70; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.fetch-button:hover {
+  background-color: #2e8b57; /* Darker Green */
+}
+
+.plant-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.plant-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.plant-info p {
+  margin: 5px 0;
+  font-size: 1em;
+}
