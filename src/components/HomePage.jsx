@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <header className="home-header">
-        <h1>Welcome to the Games Portal</h1>
-        <p>Explore our interactive games and learn about plants!</p>
+        <h1>Education about Plants</h1>
+        <p>Press the button to Generate and learn about plants!</p>
       </header>
       <main className="game-sections">
         <div className="game-card">

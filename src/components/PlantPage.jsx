@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import './PlantPage.css'; 
+import axios from 'axios';
+import { Button, Card, Spin, Alert } from 'antd';
+import { LoadingOutlined } from '@ant-design/icons';
+import 'antd/dist/reset.css'; // Import Ant Design styles
+import './PlantPage.css';
+
+const { Meta } = Card;
 
 const PlantPage = () => {
   const [plant, setPlant] = useState(null);
@@ -10,16 +16,12 @@ const PlantPage = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8001/plants');
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      
-      const data = await response.json();
-      console.log('Fetched data:', data); 
+      const response = await axios.get('http://localhost:3000/plants');
+      console.log('Fetched data:', response.data);
 
-      if (data.plants && data.plants.length > 0) {
-        const randomPlant = data.plants[Math.floor(Math.random() * data.plants.length)];
+      if (Array.isArray(response.data) && response.data.length > 0) {
+        const randomPlant = response.data[Math.floor(Math.random() * response.data.length)];
+        console.log('Random plant selected:', randomPlant);
         setPlant(randomPlant);
       } else {
         console.error('No plants data found');
@@ -33,31 +35,50 @@ const PlantPage = () => {
     }
   };
 
+  const antIcon = <LoadingOutlined style={{ fontSize: 32 }} spin />;
+
   return (
     <div className="plant-page">
       <header className="plant-header">
-        <h1>Random Plant Information</h1>
+        <h1>Discover Your Next Plant</h1>
+        <p>Click the button below to get a random plant suggestion!</p>
       </header>
       <main className="plant-content">
-        <button onClick={fetchPlantData} className="fetch-button">
+        <Button 
+          type="primary" 
+          size="large" 
+          onClick={fetchPlantData} 
+          className="fetch-button"
+        >
           Get Random Plant Info
-        </button>
-        {loading && <p className="loading-text">Loading...</p>}
-        {error && <p className="error-text">{error}</p>}
+        </Button>
+        {loading && <Spin indicator={antIcon} className="loading-spinner" />}
+        {error && <Alert message={error} type="error" showIcon className="error-alert" />}
         {plant && (
-          <div className="plant-info">
-            <h2>{plant.name}</h2>
-            <img 
-              src={plant.image_url || 'placeholder_image_url_here'} 
-              alt={plant.name} 
-              className="plant-image" 
+          <Card
+            hoverable
+            cover={
+              <img
+                alt={plant.name}
+                src={plant.image_url || 'https://via.placeholder.com/400x300?text=Image+Not+Available'}
+                className="plant-image"
+              />
+            }
+            className="plant-card"
+          >
+            <Meta
+              title={plant.name}
+              description={
+                <>
+                  <p><strong>Scientific Name:</strong> {plant.scientific_name}</p>
+                  <p><strong>Family:</strong> {plant.family}</p>
+                  <p><strong>Origin:</strong> {plant.origin}</p>
+                  <p><strong>Care Instructions:</strong> {plant.care_instructions}</p>
+                  <p><strong>Description:</strong> {plant.description}</p>
+                </>
+              }
             />
-            <p><strong>Scientific Name:</strong> {plant.scientific_name}</p>
-            <p><strong>Family:</strong> {plant.family}</p>
-            <p><strong>Origin:</strong> {plant.origin}</p>
-            <p><strong>Care Instructions:</strong> {plant.care_instructions}</p>
-            <p>{plant.description}</p>
-          </div>
+          </Card>
         )}
       </main>
     </div>
