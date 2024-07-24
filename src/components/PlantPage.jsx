@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Button, Card, Spin, Alert } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
-import 'antd/dist/reset.css'; // Import Ant Design styles
+import 'antd/dist/reset.css'; 
 import './PlantPage.css';
 
 const { Meta } = Card;
