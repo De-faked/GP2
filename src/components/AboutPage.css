@@ -1,28 +1,20 @@
-/* AboutPage.css */
-
 .about-page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #f4f4f9;
-  color: #333;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .about-header {
-  background-color: #d32f2f; /* Dark Red */
-  color: white;
   text-align: center;
-  padding: 20px 0;
 }
 
 .about-header h1 {
-  margin: 0;
   font-size: 2.5em;
+  color: #000;
 }
 
 .about-content {
-  flex: 1;
-  padding: 20px;
+  margin-top: 20px;
 }
 
 .about-section {
@@ -30,24 +22,10 @@
 }
 
 .about-section h2 {
-  color: #d32f2f; /* Dark Red */
   font-size: 2em;
-  margin-bottom: 10px;
+  color: #000;
 }
 
-.about-section p {
+.about-section p, .about-section ul {
   font-size: 1.2em;
-  line-height: 1.6;
-}
-
-.about-section ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.about-footer {
-  background-color: #c62828; /* Red */
-  color: white;
-  text-align: center;
-  padding: 10px 0;
 }
