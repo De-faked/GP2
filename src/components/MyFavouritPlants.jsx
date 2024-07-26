@@ -32,7 +32,7 @@ const MyFavouritPlants = () => {
               key={plant.name}
               hoverable
               className="plant-card"
-              cover={<img alt={plant.name} src={plant.image_url || 'https://via.placeholder.com/400x300'} />}
+              cover={<img alt={plant.name} src={plant.image_url || ''} />}
               actions={[
                 <Button type="primary" danger onClick={() => removeFavorite(plant.name)}>Remove</Button>
               ]}
